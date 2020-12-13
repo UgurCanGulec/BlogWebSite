@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @GetMapping("/home")
     public String home(){
-        return "home";
+        return "views/home";
     }
 
 }
