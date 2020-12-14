@@ -365,8 +365,8 @@
                                     <p><li>JAX-RS (Java API for Restful Web Services)</li></p>
                                     <p><li>Web Socket</li></p>
                                     <p><li>JSON-P (Java API for JSON Processing)</li></p>
-                                    <p><li>EJB (Enterprise Java Beans)</li></p>>
-                                    <p><li>JPA (Java Persistence API)</li></p>>
+                                    <p><li>EJB (Enterprise Java Beans) </li></p>
+                                    <p><li>JPA (Java Persistence API)</li></p>
                                     </p>
                                 </div>
                             </div>
@@ -496,34 +496,34 @@
 <section class="contact content-section" id="section8">
     <div class="container">
         <header class="w3-heading py-lg-5 pt-5 text-center">
-            <h3>Contact Us</h3>
-            <p>Lorem Ipsum is simply dummy text and typesetting industry.</p>
+            <h3>İletişim</h3>
+
         </header>
         <!-- //end heading -->
         <div class="row form-container py-3">
 
             <div class="col-md-8 contact-form">
-                <h4 class="mb-4">Drop us a line</h4>
+                <h4 class="mb-4">Bize Yazın</h4>
                 <form id="contactForm" method="post" action="#">
                     <div class="form-group">
                         <input type="text" class="form-control" id="name" name="name" placeholder="Your Name..."
                                value="" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Your email..."
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Mail."
                                value="" required>
                     </div>
                     <div class="form-group">
-                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your phone..."
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Telefon"
                                value="" required>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" rows="4" name="message" placeholder="Your message..."
+                        <textarea class="form-control" rows="4" name="message" placeholder="Message"
                                   required></textarea>
                     </div>
                     <div class="form-group">
                         <button type="submit" name="submit" class="btn btn-default">
-                            <i class="fa fa-paper-plane fa-fw"></i> Send
+                            <i class="fa fa-paper-plane fa-fw"></i> Gönder
                         </button>
                     </div>
                 </form>
@@ -531,16 +531,16 @@
             <!-- /.contact-form -->
 
             <div class="col-md-4 agile-w3ls-contact-address mt-sm-4 mt-0">
-                <h4 class="mb-4">Our address</h4>
+                <h4 class="mb-4">Adres</h4>
                 <address>
                     <p class="my-3 d-flex">
                         <i class="fa fa-map-marker fa-fw mr-2"></i>
-                        <label>56th lorem, New York, ipsum sed, United States</label>
+                        <label>Merkez BOLU-Beylikdüzü ISTANBUL</label>
                     </p>
                     <ul>
                         <li class="my-3">
                             <i class="fa fa-envelope fa-fw mr-2"></i>
-                            <a href="mailto:info@example.com">example.com</a>
+                            <a href="mailto:info@example.com">j4v4.com</a>
                         </li>
                         <li class="my-3">
                             <i class="fa fa-phone fa-fw mr-2"></i>+56 (0) 985 0011 002
@@ -566,7 +566,7 @@
 
         <div class="row text-center">
             <div class="col-md-12 w3-social segment">
-                <h4>Stay Connected</h4>
+                <h4>Bağlantıda Kal</h4>
                 <ul class="social-icons d-flex justify-content-center">
                     <li>
                         <a href="#">
@@ -596,8 +596,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <p> &copy; 2018. Universe. All rights reserved | Design by
-                        <a href="http://w3layouts.com">W3layouts</a>
+                    <p> &copy; 2020. J4v4Code. Tüm hakları saklıdır | Design by
+                        <a href="http://w3layouts.com">Ugur Can GULEC ve Isa SAYAR</a>
                     </p>
                 </div>
                 <!-- /.col-md-12 -->
