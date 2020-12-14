@@ -149,7 +149,7 @@
                     Aynı zaman aynı yurtta ve aynı oda da birlikte kalmaktaydılar.Bu şekilde arkadaşlıklarını ve dostlukarını iyi kötü birçok
                     anı ile doldurdular.
                 </p>
-                <a href="#" class="btn px-4" data-toggle="modal" data-target=".bd-example-modal-lg">READ MORE</a>
+                <a href="#" class="btn px-4" data-toggle="modal" data-target=".bd-example-modal-lg">Daha çok oku</a>
                 <!-- Modal -->
 
                 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
@@ -157,7 +157,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="exampleModalLabel8">
-                                    How the J4v4 Code was set up. </h5>
+                                   J4v4 Code Nasıl Kuruldu. </h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -198,11 +198,13 @@
     <div class="center-container py-4 py-sm-5">
         <div class="w3ls-video-info py-lg-5">
             <div class="container">
-                <h1 class="heading1">What separates design from art is that design is meant to be...
-                    <br>functional.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut risus eget libero finibus
-                    facilisis.
-                    Phasellus tempus hendrerit sem ut tempus sem.</p>
+                <h1 class="heading1">Hayaldi Gerçek Oldu.
+                    <br>J4v4Code.</h1>
+                <pre> public class J4v4Code{
+                        public static void main(String[] args) {
+                            System.out.println("J4v4 Code!");
+                        }
+                    }</pre>
             </div>
         </div>
     </div>
