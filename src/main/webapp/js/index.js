@@ -5,22 +5,23 @@
 
   MESSAGES.push({
     delay: 0,
-    text: "Great web design"
+    text: "public class J4v4Code{"
   });
 
   MESSAGES.push({
     delay: 1200,
-    text: "without functionality is"
+    text: "public static void main(String args){"
   });
 
   MESSAGES.push({
     delay: 2200,
-    text: "like a sports car with no engine."
+    text: "System.out.println('J4v4 Code')" +
+        "}"
   });
 
   MESSAGES.push({
     delay: 3600,
-    text: "Websites should look good from the inside and out."
+    text: "}"
   });
 
   $container = $("#container");
