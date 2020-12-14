@@ -5,7 +5,7 @@
 <head>
     <!-- meta tags -->
     <!-- Title of the document -->
-    <title>Universe a landing Page Flat Bootstrap Responsive Web Template : W3layouts</title>
+    <title>J4v4 CODE</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="Universe Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -35,7 +35,7 @@
 <div class="banner">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Universe</a>
+            <a class="navbar-brand" href="#">J4v4 Codek</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,15 +44,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
+                        <a class="nav-link" href="#">Ana Sayfa
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item ml-xl-2">
-                        <a class="nav-link scroll" href="#section2">About</a>
+                        <a class="nav-link scroll" href="#section2">Hakkında</a>
                     </li>
                     <li class="nav-item ml-xl-2">
-                        <a class="nav-link scroll" href="#section1">Services</a>
+                        <a class="nav-link scroll" href="#section1">Hizmetler</a>
                     </li>
                     <li class="nav-item dropdown ml-xl-2">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -61,15 +61,15 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                            <a class="dropdown-item scroll" href="#section6">News</a>
+                            <a class="dropdown-item scroll" href="#section6">Yeniler</a>
 
 
-                            <a class="dropdown-item" href="#">Typography</a>
+                            <a class="dropdown-item" href="#">Basım</a>
                         </div>
                     </li>
 
                     <li class="nav-item ml-xl-2">
-                        <a class="nav-link scroll" href="#section8">Contact</a>
+                        <a class="nav-link scroll" href="#section8">Iletişim</a>
                     </li>
                 </ul>
             </div>
@@ -85,48 +85,52 @@
 <section class="w3layouts-wrapper text-center py-5" id="section1">
     <div class="container py-lg-4">
         <header>
-            <h3>Section Heading</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <h3>Java</h3>
+            <p>“A class, in Java, is where we teach objects how to behave.”
+                — Richard E. Pattis.</p>
         </header>
         <div class="w3ls-wrapper-content">
             <div class="row pt-lg-3">
                 <div class="agileits-s-grid col-lg-4 col-12 mt-5">
                     <i class="fab fa-buromobelexperte icon1"></i>
-                    <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">heading goes here</h4>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout.</p>
+                    <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">Java</h4>
+                    <p> Sun Microsystems mühendislerinden James Gosling tarafından geliştirilmeye başlanmış açık kaynak kodlu, nesneye yönelik, zeminden bağımsız, yüksek verimli,
+                        çok işlevli, yüksek seviye, adım adım işletilen (yorumlanan - interpreted) bir dildir..</p>
                 </div>
                 <div class="agileits-s-grid col-lg-4 col-12 mt-sm-5 mt-5">
                     <i class="fas fa-code icon2"></i>
-                    <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">heading goes here</h4>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout.</p>
+                    <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">Java Uygulama Alanları</h4>
+                    <li>
+                        <p>Mobil ve Gömülü Uygulamalar</p>
+                        <p>Web Tabanlı Uygulamalar</p>
+                        <p>Oyun Geliştirme</p>
+                        <p>Kurumsal Yazılım.</p>
+                    </li>
+
+
                 </div>
                 <div class="agileits-s-grid col-lg-4 col-12 mt-5">
                     <i class="fab fa-angular icon3"></i>
-                    <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">heading goes here</h4>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout.</p>
+                    <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">Mobil ve Gömülü Uygulamalar</h4>
+                    <p>Java ile mobil ve gömülü uygulamalar geliştirebilir ve yayınlayabilirsiniz..</p>
                 </div>
             </div>
             <div class="row pt-lg-3">
                 <div class="agileits-s-grid col-lg-4 col-12 mt-5">
                     <i class="fab fa-apple icon4"></i>
-                    <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">heading goes here</h4>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout.</p>
+                    <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">Web Tabanlı Uygulamalar</h4>
+                    <p>Java  geliştiricileri Spring Maven Hibernate Servis sağlayıcıları, JSP ve JSTL gibi çeşitli
+                    teknolojiler kullanarak Web uygulaması geliştirebilir.</p>
                 </div>
                 <div class="agileits-s-grid col-lg-4 col-12 mt-5">
                     <i class="fas fa-at icon5"></i>
-                    <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">heading goes here</h4>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout.</p>
+                    <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">Oyun Geliştirme</h4>
+                    <p>Java sağlamış olduğu birçok destek ve paket ile Oyun Geliştirmeyede imkan tanımaktadır.</p>
                 </div>
                 <div class="agileits-s-grid col-lg-4 col-12 mt-5">
                     <i class="fab fa-autoprefixer icon6"></i>
-                    <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">heading goes here</h4>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when looking at its layout.</p>
+                    <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">Kurumsal Yazılım</h4>
+                    <p>Java Enterprise Edition ile çok rahat ve güzel bir şekilde Kurumsal Uygulamalar yazılabilir..</p>
                 </div>
             </div>
         </div>
