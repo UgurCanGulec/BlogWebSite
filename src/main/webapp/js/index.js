@@ -15,8 +15,7 @@
 
   MESSAGES.push({
     delay: 2200,
-    text: "System.out.println('J4v4 Code')" +
-        "}"
+    text: "System.out.println('J4v4 Code') }"
   });
 
   MESSAGES.push({

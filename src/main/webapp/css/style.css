@@ -758,7 +758,7 @@ a.btn.more {
 /* ---------------------------------------------- */
 
 section.testimonials {
-    background: url(../images/clients-bg.jpg) no-repeat 0px 0px;
+    /*background: url(../images/clients-bg.jpg) no-repeat 0px 0px;*/
     background-size: cover;
     min-height: 100vh;
     background-attachment: fixed;
