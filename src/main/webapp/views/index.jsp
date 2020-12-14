@@ -105,10 +105,10 @@
                 <div class="agileits-s-grid col-lg-4 col-12 mt-sm-5 mt-5">
                     <i class="fas fa-code icon2"></i>
                     <h4 class="my-lg-4 my-sm-3 mt-3 mb-2">Java Uygulama Alanları</h4>
-                    <li><p>Mobil ve Gömülü Uygulamalar</p></li>
-                    <li><p>Web Tabanlı Uygulamalar</p></li>
-                    <li><p>Oyun Geliştirme</p></li>
-                    <li><p>Kurumsal Yazılım.</p></li>
+                    <p><li>Mobil ve Gömülü Uygulamalar</li></p>
+                    <p><li>Web Tabanlı Uygulamalar</li></p>
+                    <p><li>Oyun Geliştirme</li></p>
+                    <p><li>Kurumsal Yazılım.</li></p>
                 </div>
                 <div class="agileits-s-grid col-lg-4 col-12 mt-5">
                     <i class="fab fa-angular icon3"></i>
@@ -149,7 +149,7 @@
                     Aynı zaman aynı yurtta ve aynı oda da birlikte kalmaktaydılar.Bu şekilde arkadaşlıklarını ve dostlukarını iyi kötü birçok
                     anı ile doldurdular.
                 </p>
-                <a href="#" class="btn px-4" data-toggle="modal" data-target=".bd-example-modal-lg">Daha çok oku</a>
+                <a href="#" class="btn px-4" data-toggle="modal" data-target=".bd-example-modal-lg">Daha Fazla Oku</a>
                 <!-- Modal -->
 
                 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
@@ -200,11 +200,13 @@
             <div class="container">
                 <h1 class="heading1">Hayaldi Gerçek Oldu.
                     <br>J4v4Code.</h1>
-                <pre> public class J4v4Code{
-                        public static void main(String[] args) {
-                            System.out.println("J4v4 Code!");
-                        }
-                    }</pre>
+                <p style="color: white;text-align: center">
+                    public class J4v4Code{
+                    <br>    public static void main(String[] args) {
+                      <br>      System.out.println("J4v4 Code!");
+                        <br>    }
+                      <br>  }
+                </p>
             </div>
         </div>
     </div>
@@ -216,26 +218,25 @@
 <section class="news pb-5" id="section6">
     <div class="container">
         <header class="w3-heading py-lg-5 pb-md-5 pb-4 text-center">
-            <h3>Our News</h3>
-            <p>Lorem Ipsum is simply dummy text and typesetting industry.</p>
+            <h3>Java</h3>
+            <p>25 Yılda 3 Milyar Cihazda.</p>
         </header>
         <!-- //end heading -->
         <div class="card-columns">
             <div class="card">
                 <img class="card-img-top" src="${pageContext.request.contextPath}/images/g9.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">News title goes here</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This
-                        content is a little bit longer.</p>
-                    <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal">Read More</a>
+                    <h5 class="card-title">Java Özellikleri</h5>
+                    <p class="card-text"> Java dili tasarımcıları başlangıçta küçük cihazlar ve avuç içi kullanıma yönelik üretilen cihazlar için geliştirilmiş olmakla birlikte,
+                        günümüzde tüm dünyada 9 milyon Java geliştiricisine sahip dünya standardı bir dil haline gelmiş bulunmaktadır.</p>
+                    <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal">Daha Fazla Oku.</a>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
                          aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Title goes here</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">Populer Kılan Özellikler</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -243,22 +244,17 @@
                                 <div class="modal-body">
                                     <img class="card-img-top" src="${pageContext.request.contextPath}/images/g9.jpg"
                                          alt="Card image cap">
-                                    <p class="my-3">This is a longer card with supporting text below as a natural
-                                        lead-in to additional
-                                        content. This content is a little bit longer. There are many variations of
-                                        passages
-                                        of Lorem Ipsum available, but the majority have suffered alteration in some
-                                        form,
-                                        by injected humour, or randomised words which don't look even slightly
-                                        believable.
-                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                        isn't
-                                        anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                        generators
-                                        on the Internet tend to repeat predefined chunks as necessary, making this the
-                                        first true generator on the Internet. It uses a dictionary of over 200 Latin
-                                        words, combined with a handful of model sentence structures, to generate Lorem
-                                        Ipsum which free from etc.</p>
+                                    <p class="my-3">
+                                    <p>Basit oluşu,</p>
+                                    <p>Dağıtık olması,</p>
+                                    <p>Nesne yönelimli oluşu,</p>
+                                    <p>Çoklu iş yeteneğine sahip olması,</p>
+                                    <p>Dinamik olması,</p>
+                                    <p>Mimari yapıdan bağımsız oluşu,</p>
+                                    <p>Taşınabilirlik özelliği,</p>
+                                    <p>Sağlam ve güvenilir oluşu,</p>
+                                    <p>Yüksek performansa sahip olmasıdır.</p>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -270,11 +266,10 @@
                 <img class="card-img-top" src="${pageContext.request.contextPath}/images/banner1.jpg"
                      alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">News title goes here</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This
-                        content is a little bit longer.</p>
-                    <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal2">Read More</a>
+                    <h5 class="card-title">Java Kullanıcıya Ne Sağlar?</h5>
+                    <p class="card-text">Java, neredeyse tüm dünyadaki bilgisayar programcıları nezdinde standart haline gelmiş bir dildir.
+                        Bilgisayarlarla ilgili tüm konularda işe yarayan bir dil oluşu sayesinde java programcıları üstün bir ayrıcalığa sahip bulunmaktadır.</p>
+                    <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal2">Daha Fazla Oku.</a>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
                          aria-labelledby="exampleModalLabel2" aria-hidden="true">
@@ -290,22 +285,15 @@
                                     <img class="card-img-top"
                                          src="${pageContext.request.contextPath}/images/banner1.jpg"
                                          alt="Card image cap">
-                                    <p class="my-3">This is a longer card with supporting text below as a natural
-                                        lead-in to additional
-                                        content. This content is a little bit longer. There are many variations of
-                                        passages
-                                        of Lorem Ipsum available, but the majority have suffered alteration in some
-                                        form,
-                                        by injected humour, or randomised words which don't look even slightly
-                                        believable.
-                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                        isn't
-                                        anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                        generators
-                                        on the Internet tend to repeat predefined chunks as necessary, making this the
-                                        first true generator on the Internet. It uses a dictionary of over 200 Latin
-                                        words, combined with a handful of model sentence structures, to generate Lorem
-                                        Ipsum which free from etc.</p>
+                                    <p class="my-3">Javanın basit bir dili olması, onu diğer dillerden daha kısa sürede ve daha kolay öğrenmenizi sağlayacaktır.
+                                        Java programlarıyla aynı işi yapan C++ kaynak programlarına oranla java programları dörtte bir kadar uzundur.
+                                        Bu sayede daha az kod yazarak zamandan ve emekten tasarruf etmeniz mümkün olacaktır.
+                                        Java ile daha az kod yazacaksınız. Java API kullanıcıya gerek duyacağı her metodu hazır olarak sunacaktır.
+                                        Kullanıcı istediğinde bu metotları kullanabilecek, istediğinde onlardan alt sınıflar üretebilecektir.
+                                        Böylece kaynak programınızda oluşması muhtemel hataları önleme imkânına sahip olabileceksiniz.
+                                        Kullanıcılar java uygulamalarını sadece bir kez yazacak ve dilediği her yerde çalıştırabilme avantajına sahip olacaktır.
+                                        Yazdığınız uygulamaları kolayca yayabilirsiniz.
+                                        Çünkü java kullanıcısı tarafından yazılan uygulamalar Java API dışında hiçbir kütüphane tarafından kullanılmadığı için, her platformda çalışacaktır..</p>
                                 </div>
                             </div>
                         </div>
@@ -315,38 +303,28 @@
             </div>
             <div class="card p-3">
                 <blockquote class="blockquote mb-0 card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <h5 class="modal-title">Java SE(Standar Edition)</h5>
+                    <p class="card-text">Java SE (Java Standard Edition) masaüstü ve sunucu ortamları için taşınabilir
+                        uygulamaların geliştirilmesi ve dağıtımı için yaygın olarak kullanılan bir platformdur.
+                        Java SE nesne yönelimli Java programlama dilini kullanır..</p>
                     <footer class="blockquote-footer mt-2">
-                        <small class="text-muted">
-                            Someone famous in
-                            <cite title="Source Title">Source Title</cite>
-                        </small>
-                        <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal3">Read
-                            More</a>
+                        <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal3">Daha Fazla Oku</a>
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog"
                              aria-labelledby="exampleModalLabel3" aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel3">Title goes here</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel3">Java SE</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <p class="my-3">This is a longer card with supporting text below as a natural
-                                            lead-in to additional
-                                            content. This content is a little bit longer. There are many variations of
-                                            passages of Lorem Ipsum available, but the majority have suffered alteration
-                                            in some form, by injected humour, or randomised words which don't look even
-                                            slightly believable. If you are going to use a passage of Lorem Ipsum, you
-                                            need to be sure there isn't anything embarrassing hidden in the middle of
-                                            text. All the Lorem Ipsum generators on the Internet tend to repeat
-                                            predefined
-                                            chunks as necessary, making this the first true generator on the Internet.
-                                            It uses a dictionary of over 200 Latin words, combined with a handful of
-                                            model sentence structures, to generate Lorem Ipsum which free from etc.</p>
+                                        <p class="my-3">Java SE (Standart Edition) Java programlama diline yeni başlamak isteyen geliştiriciler
+                                            için ilk olarak Java nın programlama yapısını, yazım kurallarını, döngü yapılarını, şartlı durumları,
+                                            Nesne yönemli yapısını, Generic sınfıları, Java veri yapılarını,Swing GUI, Multi Threading porgramlamayı, JDBC ve benzeri gibi bir çok konuyu
+                                            öğrenebileceği ve Masaüstü uygulamaları geliştirmek isteyen programcılar için daha uygun olarak görülür.</p>
                                     </div>
                                 </div>
                             </div>
@@ -358,20 +336,18 @@
             <div class="card">
                 <img class="card-img-top" src="${pageContext.request.contextPath}/images/g3.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">News title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                        content.</p>
-                    <p class="card-text">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-                    <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal4">Read More</a>
+                    <h5 class="card-title">Java EE(Java Enterprise Edition)</h5>
+                    <p class="card-text">Java EE kurumsal veya büyük ölçekli uygulamalar geliştirmek için kullanılan sınıf ve paketlerden oluşan
+                    kuütüphaneler topluluğudur.</p>
+
+                    <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal4">Daha Fazla Oku.</a>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog"
                          aria-labelledby="exampleModalLabel4" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel4">Title goes here</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel4">Java EE Nedir?</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -379,22 +355,19 @@
                                 <div class="modal-body">
                                     <img class="card-img-top" src="${pageContext.request.contextPath}/images/g3.jpg"
                                          alt="Card image cap">
-                                    <p class="my-3">This is a longer card with supporting text below as a natural
-                                        lead-in to additional
-                                        content. This content is a little bit longer. There are many variations of
-                                        passages
-                                        of Lorem Ipsum available, but the majority have suffered alteration in some
-                                        form,
-                                        by injected humour, or randomised words which don't look even slightly
-                                        believable.
-                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                        isn't
-                                        anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                        generators
-                                        on the Internet tend to repeat predefined chunks as necessary, making this the
-                                        first true generator on the Internet. It uses a dictionary of over 200 Latin
-                                        words, combined with a handful of model sentence structures, to generate Lorem
-                                        Ipsum which free from etc.</p>
+                                    <p class="my-3">
+                                        Enterprise Edition veya kurumsal sürüm olarak adlandırılmasının nedeni ise içindeki kurumsal uygulama geliştirmeye yönelik olmasıdır.
+                                    <p><li>Servlet</li></p>
+                                    <p><li>JSP (Java Server Pages)</li></p>
+                                    <p><li>EL (Expression Languga)</li></p>
+                                    <p><li>JSTL (Java Server Pages Stabdart Tag Library)</li></p>
+                                    <p><li>JSF (Java Server Faces)</li></p>
+                                    <p><li>JAX-RS (Java API for Restful Web Services)</li></p>
+                                    <p><li>Web Socket</li></p>
+                                    <p><li>JSON-P (Java API for JSON Processing)</li></p>
+                                    <p><li>EJB (Enterprise Java Beans)</li></p>>
+                                    <p><li>JPA (Java Persistence API)</li></p>>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -404,41 +377,29 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">News title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                        content.</p>
-                    <p class="card-text">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-                    <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal5">Read More</a>
+                    <h5 class="card-title">Java OOP</h5>
+                    <p class="card-text">Nesne yönelimli programlama, fonksiyonel programlama yapısından farklı bir anlayıştır.
+                        Bu anlayış, etrafımızda bulunan bütün varlıkların nesne olarak tanımlayabildiğimiz bir programlama yapısı oluşturur.
+                        Bunun sonucunda insan diline daha yakın bir yapı kurmamızı sağladığı gibi kodlara daha kolay müdahale edebilmemizi olanak tanır.</p>
+
+                    <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal5">Daha Fazla Oku</a>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog"
                          aria-labelledby="exampleModalLabel5" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel5">Title goes here</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel5">Java OOP</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <p class="my-3">This is a longer card with supporting text below as a natural
-                                        lead-in to additional
-                                        content. This content is a little bit longer. There are many variations of
-                                        passages
-                                        of Lorem Ipsum available, but the majority have suffered alteration in some
-                                        form,
-                                        by injected humour, or randomised words which don't look even slightly
-                                        believable.
-                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                        isn't
-                                        anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                        generators
-                                        on the Internet tend to repeat predefined chunks as necessary, making this the
-                                        first true generator on the Internet. It uses a dictionary of over 200 Latin
-                                        words, combined with a handful of model sentence structures, to generate Lorem
-                                        Ipsum which free from etc.</p>
+                                    <p class="my-3">Class nesnemizin kapsamını belirten, içerisinde özellik ve davranışları tanımladığımız methodlardır.
+                                        Class temsil ettiği nesneye göre bir isim alır.
+                                        Main methodumuz içerisinde class çağırarak, nesnemizi yaşayabilir bir nesne haline dönüştüreceğiz.
+                                        Nesnemizin canlı bir varlığa dönüşmesi program akışımızda nesneyi kullandığımızı ve artık RAM üzerinde bir alan kapladığı anlamına gelir.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -451,21 +412,19 @@
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">News title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This
-                        card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-                    <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal6">Read More</a>
+                    <h5 class="card-title">Spring Framework</h5>
+                    <p class="card-text">Spring Framework, Java uygulamalarımızın yapını kolaylaştıran, bir frameworktür.
+                        Spring Framework ile Dependency Injecktion,
+                        web uygulamaları, veri erişimi, mesajlaşma,
+                        test ve güvenlik gibi işlemleri kolayca yapmak ve yönetmek için bir alt yapı sağlamaktadır.</p>
+                    <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal6">Daha Fazla Oku</a>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog"
                          aria-labelledby="exampleModalLabel6" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel6">Title goes here</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel6">Spring Framework</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -473,22 +432,12 @@
                                 <div class="modal-body">
                                     <img class="card-img-top" src="${pageContext.request.contextPath}/images/g11.jpg"
                                          alt="Card image cap">
-                                    <p class="my-3">This is a longer card with supporting text below as a natural
-                                        lead-in to additional
-                                        content. This content is a little bit longer. There are many variations of
-                                        passages
-                                        of Lorem Ipsum available, but the majority have suffered alteration in some
-                                        form,
-                                        by injected humour, or randomised words which don't look even slightly
-                                        believable.
-                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                        isn't
-                                        anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                        generators
-                                        on the Internet tend to repeat predefined chunks as necessary, making this the
-                                        first true generator on the Internet. It uses a dictionary of over 200 Latin
-                                        words, combined with a handful of model sentence structures, to generate Lorem
-                                        Ipsum which free from etc.</p>
+                                    <p class="my-3">Spring Framework, Dependecy Injection (bağımlılıkların enjecte edilmesi)
+                                        ve AOP (Aspect Oriented Programming) prensibi ile çalışması öne çıkan özelliğidir.
+                                        Spring framework’ün bu özelliği esnek bir yazılım ve
+                                        modüler bir yapıda kolaylıkla çalışmayı sağlamaktadır.
+                                        Spring Framework’ün diğer kütüphaneler ile entegrasyonu sayesinde yönetimi
+                                        Spring Framework üzerinde yapabilmeyi sağlamaktadır..</p>
                                 </div>
                             </div>
                         </div>
@@ -499,18 +448,20 @@
             <div class="card">
                 <img class="card-img-top" src="${pageContext.request.contextPath}/images/g5.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">News title goes here</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This
-                        content is a little bit longer.</p>
-                    <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal7">Read More</a>
+                    <h5 class="card-title">Hibernate</h5>
+                    <p class="card-text">Hibernate, Java platformunda yazılmış bir ORM (Object/Relational Mapping) aracıdır.
+                        ORM, nesne odaklı (object oriented) dillerdeki nesnelerin,
+                        ilişkisel veri tabanlarındaki (relational databases)
+                        kayıtlara nasıl karşılık geldiğini yürüten bir teknolojidir.
+                        NHibernate adında .NET çatısı için yeniden yazılmış bir türevi bulunur.</p>
+                    <a href="#" class="btn more p-0 mt-3" data-toggle="modal" data-target="#exampleModal7">Daha Fazla Oku.</a>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog"
                          aria-labelledby="exampleModalLabel7" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel7">Title goes here</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel7">Hibernate</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -518,22 +469,16 @@
                                 <div class="modal-body">
                                     <img class="card-img-top" src="${pageContext.request.contextPath}/images/g5.jpg"
                                          alt="Card image cap">
-                                    <p class="my-3">This is a longer card with supporting text below as a natural
-                                        lead-in to additional
-                                        content. This content is a little bit longer. There are many variations of
-                                        passages
-                                        of Lorem Ipsum available, but the majority have suffered alteration in some
-                                        form,
-                                        by injected humour, or randomised words which don't look even slightly
-                                        believable.
-                                        If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                        isn't
-                                        anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                        generators
-                                        on the Internet tend to repeat predefined chunks as necessary, making this the
-                                        first true generator on the Internet. It uses a dictionary of over 200 Latin
-                                        words, combined with a handful of model sentence structures, to generate Lorem
-                                        Ipsum which free from etc.</p>
+                                    <p class="my-3">Hibernate gibi ORM araçlarıyla, bir nesneyi veri tabanına kaydetmek,
+                                        yeni halini güncellemek ve sorgulama yapmak düz SQL bağlantılarına göre çok kolaydır.
+                                        Örneğin, JDBC ile veri tabanına bir kayıt eklemek için şuna benzer bir kod yazılır:
+                                        stmt.executeUpdate( "INSERT INTO KAHVE VALUES ('Colombian', 101, 7.99, 0, 0)");
+                                        Burada, "KAHVE" tablosuna bir kayıt eklenmekte. Böyle bir işlemi Hibernate ile yapmak için:
+                                        session.saveOrUpdate(kahve);
+                                        kahve, bildiğimiz düz bir Java nesnesidir (POJO).
+                                        Hibernate gibi ORM araçlarının en önemli faydası, kod yazımını kısaltmak veya kolaylaştırmaktan öte,
+                                        yazılım bakımını kolaylaştırmasıdır.
+                                        Veri tabanı temelli uygulamalarda, kodun 1/3´ü veri tabanı erişimine yöneliktir. </p>
                                 </div>
                             </div>
                         </div>
