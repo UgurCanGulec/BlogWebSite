@@ -286,7 +286,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <img class="card-img-top"
-                                         src="${pageContext.request.contextPath}/images/banner1.jpg"
+                                         src="${pageContext.request.contextPath}/images/javaTwo.jpg"
                                          alt="Card image cap">
                                     <p class="my-3">Javanın basit bir dili olması, onu diğer dillerden daha kısa sürede ve daha kolay öğrenmenizi sağlayacaktır.
                                         Java programlarıyla aynı işi yapan C++ kaynak programlarına oranla java programları dörtte bir kadar uzundur.
