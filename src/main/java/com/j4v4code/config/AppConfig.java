@@ -1,5 +1,6 @@
 package com.j4v4code.config;
 
+import com.j4v4code.model.Admin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -48,7 +49,7 @@ public class AppConfig {
         properties.put(C3P0_CONFIG_PREFIX + ".initialPoolSize", environment.getProperty("hibernate.c3p0.initialPoolSize"));
 
         factoryBean.setHibernateProperties(properties);
-        factoryBean.setAnnotatedClasses();//Model sınıfları araya virgül at devam et
+        factoryBean.setAnnotatedClasses(Admin.class);//Model sınıfları araya virgül at devam et
         return factoryBean;
     }
     @Bean

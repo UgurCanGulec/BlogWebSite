@@ -13,10 +13,12 @@ public class Admin implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "username" , nullable = false)
+    private int id;
+
+    @Column(name = "username")
     private String userName;
 
-    @Column(name = "password" , nullable = false)
+    @Column(name = "password")
     private String password;
 
 }
