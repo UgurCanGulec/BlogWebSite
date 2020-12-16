@@ -31,9 +31,9 @@ a,
 a:hover {
     text-decoration: none;
 }
-
+/*banner1.jpg*/
 .banner {
-    background: url('../images/banner1.jpg') no-repeat 0px 0px;
+    background: url('../images/javaThree.jpg') no-repeat 0px 0px;
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
