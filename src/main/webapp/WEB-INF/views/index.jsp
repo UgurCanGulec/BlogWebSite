@@ -182,9 +182,10 @@
                     </div>
                 </div>
                 <!-- /Modal -->
+                <!-- abt.jpg -->
             </div>
             <div class="col-lg-6 p-0">
-                <img src="${pageContext.request.contextPath}/images/abt.jpg" alt="about-image-agileits"
+                <img src="${pageContext.request.contextPath}/images/bg1.jpg" alt="about-image-agileits"
                      class="img-fluid"/>
             </div>
         </div>
@@ -195,7 +196,7 @@
 
 <!-- video starts here -->
 <div data-vide-bg="video/meeting">
-    <div class="center-container py-4 py-sm-5">
+    <div class="center-container py-4 py-sm-5" style="margin-top: 1%">
         <div class="w3ls-video-info py-lg-5">
             <div class="container">
                 <h1 class="heading1">Hayaldi Gerçek Oldu.
@@ -242,7 +243,8 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img class="card-img-top" src="${pageContext.request.contextPath}/images/g9.jpg"
+                                    <!-- g9.jpg-->
+                                    <img class="card-img-top" src="${pageContext.request.contextPath}/images/javaOne.jpg"
                                          alt="Card image cap">
                                     <p class="my-3">
                                     <p>Basit oluşu,</p>
@@ -263,7 +265,8 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="${pageContext.request.contextPath}/images/banner1.jpg"
+                <!-- banner.jpg-->
+                <img class="card-img-top" src="${pageContext.request.contextPath}/images/javaTwo.jpg"
                      alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Java Kullanıcıya Ne Sağlar?</h5>
@@ -334,7 +337,8 @@
                 </blockquote>
             </div>
             <div class="card">
-                <img class="card-img-top" src="${pageContext.request.contextPath}/images/g3.jpg" alt="Card image cap">
+                <!-- g3.jpg-->
+                <img class="card-img-top" src="${pageContext.request.contextPath}/images/javaSix.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Java EE(Java Enterprise Edition)</h5>
                     <p class="card-text">Java EE kurumsal veya büyük ölçekli uygulamalar geliştirmek için kullanılan sınıf ve paketlerden oluşan
@@ -353,7 +357,8 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img class="card-img-top" src="${pageContext.request.contextPath}/images/g3.jpg"
+                                    <!-- g3.jpg-->
+                                    <img class="card-img-top" src="${pageContext.request.contextPath}/images/javaSix.jpg"
                                          alt="Card image cap">
                                     <p class="my-3">
                                         Enterprise Edition veya kurumsal sürüm olarak adlandırılmasının nedeni ise içindeki kurumsal uygulama geliştirmeye yönelik olmasıdır.
@@ -408,7 +413,8 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img" src="${pageContext.request.contextPath}/images/g11.jpg" alt="Card image">
+                <!-- g11.jpg-->
+                <img class="card-img" src="${pageContext.request.contextPath}/images/javaFour.jpg" alt="Card image">
             </div>
             <div class="card">
                 <div class="card-body">
@@ -430,7 +436,8 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img class="card-img-top" src="${pageContext.request.contextPath}/images/g11.jpg"
+                                    <!-- g11.jpg-->
+                                    <img class="card-img-top" src="${pageContext.request.contextPath}/images/javaFive.jpg"
                                          alt="Card image cap">
                                     <p class="my-3">Spring Framework, Dependecy Injection (bağımlılıkların enjecte edilmesi)
                                         ve AOP (Aspect Oriented Programming) prensibi ile çalışması öne çıkan özelliğidir.
@@ -446,7 +453,8 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="${pageContext.request.contextPath}/images/g5.jpg" alt="Card image cap">
+                <!-- g5.jpg-->
+                <img class="card-img-top" src="${pageContext.request.contextPath}/images/javaSeven.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Hibernate</h5>
                     <p class="card-text">Hibernate, Java platformunda yazılmış bir ORM (Object/Relational Mapping) aracıdır.
@@ -467,7 +475,8 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img class="card-img-top" src="${pageContext.request.contextPath}/images/g5.jpg"
+                                    <!-- g5.jpg-->
+                                    <img class="card-img-top" src="${pageContext.request.contextPath}/images/javaSeven.jpg"
                                          alt="Card image cap">
                                     <p class="my-3">Hibernate gibi ORM araçlarıyla, bir nesneyi veri tabanına kaydetmek,
                                         yeni halini güncellemek ve sorgulama yapmak düz SQL bağlantılarına göre çok kolaydır.
