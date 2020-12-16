@@ -166,7 +166,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <img class="card-img-top align-self-center"
-                                             src="${pageContext.request.contextPath}/images/abt.jpg"
+                                             src="${pageContext.request.contextPath}/images/java.jpg"
                                              alt="Card image cap">
                                     </div>
                                     <div class="col-md-6">
