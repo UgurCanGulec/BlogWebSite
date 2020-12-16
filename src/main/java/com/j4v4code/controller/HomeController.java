@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @Controller
 @RequestMapping("/home")
 public class HomeController {
-
-
     @GetMapping("/home")
     public String home(){
         return "home";
