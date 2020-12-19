@@ -33,7 +33,8 @@
 </head>
 
 <body>
-<!-- banner -->
+<!-- banner
+ class="banner"-->
 <div class="banner">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
