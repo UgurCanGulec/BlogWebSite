@@ -19,7 +19,7 @@ public class HomeController {
         this.adminService = adminService;
     }
 
-
+/*
     @RequestMapping(value = "/admin", method = RequestMethod.POST)
     public String login(@RequestParam Long username,
                         @RequestParam String password){
@@ -38,5 +38,5 @@ public class HomeController {
         }
         return "index";
     }
-
+*/
 }

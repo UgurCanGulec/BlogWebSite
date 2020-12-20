@@ -10,12 +10,12 @@ import java.io.Serializable;
 @Table(name="admin")
 @Data
 public class Admin implements Serializable {
-
-
-    @Column(name = "userID")
-    private Long userID;
-
-    @Column(name = "password")
-    private String password;
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="ID")
+    private long id;
+    @Column(name = "UserName")
+    private String userName;
+    @Column(name="UserPassword")
+    private String userPassword;
 }
