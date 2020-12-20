@@ -26,7 +26,7 @@ public class HomeController {
     public String login(@RequestParam String username,
                         @RequestParam String password) {
 
-     /*   Admin admin = adminService.findByUserName(username);
+      /*  Admin admin = adminService.findByUserName(username);
 
         if (admin!=null) {
             if (admin.getUserName().equals(username) && admin.getUserPassword().equals(password)){
