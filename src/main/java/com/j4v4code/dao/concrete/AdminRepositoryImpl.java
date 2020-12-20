@@ -33,7 +33,7 @@ public class AdminRepositoryImpl implements AdminRepository {
         Root<Admin> rootEntry = criteriaQuery.from(Admin.class);
         CriteriaQuery<Admin> admins = criteriaQuery.select(rootEntry);
         TypedQuery<Admin> adminTypedQuery = getCurrentSession().createQuery(admins);
-        return (List<Admin>) adminTypedQuery;
+        return adminTypedQuery.getResultList();
     }
 
     @Override

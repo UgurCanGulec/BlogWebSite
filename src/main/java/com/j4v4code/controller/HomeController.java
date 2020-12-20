@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 
 @Controller
 @RequestMapping("/login")
@@ -22,12 +24,12 @@ public class HomeController {
 
     @RequestMapping(value = "/admin", method = RequestMethod.POST)
     public String login(@RequestParam String username,
-                        @RequestParam String password){
+                        @RequestParam String password) {
 
-        Admin admin = adminService.findByUserName(username);
+     /*   Admin admin = adminService.findByUserName(username);
 
         if (admin!=null) {
-            if (admin.getUserPassword().equals(password)){
+            if (admin.getUserName().equals(username) && admin.getUserPassword().equals(password)){
                 return "home";
             }else{
               //TODO:
@@ -37,6 +39,18 @@ public class HomeController {
             //TODO:
         }
         return "index";
-    }
+    }*/
+        List<Admin> allAdmin = adminService.allAdminGet();
+        String address="";
+        for (Admin admin : allAdmin) {
+            if (admin.getUserName().equals(username) && admin.getUserPassword().equals(password)) {
+                address="home";
+                break;
+            } else {
+                address="index";
+            }
 
+        }
+        return address;
+    }
 }
