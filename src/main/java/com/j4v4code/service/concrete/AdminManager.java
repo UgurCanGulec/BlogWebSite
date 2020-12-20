@@ -21,7 +21,7 @@ public class AdminManager implements AdminService {
 
 
     @Override
-    public Admin findByUserName(Long id) {
-        return adminRepository.findByUserName(Admin.class,id);
+    public Admin findByUserName(String userName) {
+        return adminRepository.findByUserName(userName);
     }
 }

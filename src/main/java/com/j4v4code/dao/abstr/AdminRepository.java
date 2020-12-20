@@ -7,6 +7,6 @@ import java.io.Serializable;
 public interface AdminRepository {
 
     // Get Admin By userName
-    Admin findByUserName(Class clazz, Long id);
+    Admin findByUserName(String userName);
 
 }

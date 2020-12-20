@@ -19,15 +19,15 @@ public class HomeController {
         this.adminService = adminService;
     }
 
-/*
+
     @RequestMapping(value = "/admin", method = RequestMethod.POST)
-    public String login(@RequestParam Long username,
+    public String login(@RequestParam String username,
                         @RequestParam String password){
 
         Admin admin = adminService.findByUserName(username);
 
         if (admin!=null) {
-            if (admin.getPassword().equals(password)){
+            if (admin.getUserPassword().equals(password)){
                 return "home";
             }else{
               //TODO:
@@ -38,5 +38,5 @@ public class HomeController {
         }
         return "index";
     }
-*/
+
 }
