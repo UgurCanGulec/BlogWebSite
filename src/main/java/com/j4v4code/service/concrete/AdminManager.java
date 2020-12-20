@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 @Transactional(propagation = Propagation.REQUIRED,readOnly = false,rollbackFor = Exception.class)
 public class AdminManager implements AdminService {
@@ -19,6 +21,11 @@ public class AdminManager implements AdminService {
         this.adminRepository = adminRepository;
     }
 
+
+    @Override
+    public List<Admin> allAdminGet() {
+        return adminRepository.getAllUser();
+    }
 
     @Override
     public Admin findByUserName(String userName) {
