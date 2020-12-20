@@ -11,12 +11,9 @@ import java.io.Serializable;
 @Data
 public class Admin implements Serializable {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
 
-    @Column(name = "username")
-    private String userName;
+    @Column(name = "userID")
+    private Long userID;
 
     @Column(name = "password")
     private String password;

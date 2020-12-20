@@ -8,8 +8,6 @@
     <title>J4v4 CODE</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Universe Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design"/>
     <!-- /meta tags -->
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/owl.carousel.min.css">
@@ -141,23 +139,8 @@
                     <li class="nav-item ml-xl-2">
                         <a class="nav-link scroll" href="#section1">Hizmetler</a>
                     </li>
-               <!--    <li class="nav-item dropdown ml-xl-2">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                           data-toggle="dropdown" aria-haspopup="true"
-                           aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                            <a class="dropdown-item scroll" href="#section6">Yeniler</a>
-
-
-                            <a class="dropdown-item" href="#">Basım</a>
-                        </div>
-                    </li>
-                    -->
                     <li class="nav-item ml-xl-2">
-                        <a class="nav-link scroll trigger-btn" href="#myModal" data-toggle="modal">Login</a>
+                        <a class="nav-link scroll trigger-btn" href="#myModal" data-toggle="modal">Giriş</a>
                     </li>
 
                     <li class="nav-item ml-xl-2">
@@ -184,7 +167,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             </div>
             <div class="modal-body">
-                <form action="#" method="post">
+                <form action="${pageContext.request.contextPath}/login/admin" method="post">
                     <div class="form-group">
                         <input type="text" class="form-control" name="username" placeholder="Username" required="required">
                     </div>
@@ -192,7 +175,7 @@
                         <input type="password" class="form-control" name="password" placeholder="Password" required="required">
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Login</button>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Giriş</button>
                     </div>
                 </form>
             </div>

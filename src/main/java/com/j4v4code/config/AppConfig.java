@@ -1,6 +1,10 @@
 package com.j4v4code.config;
 
+import com.j4v4code.dao.abstr.AdminRepository;
+import com.j4v4code.dao.concrete.AdminRepositoryImpl;
 import com.j4v4code.model.Admin;
+import com.j4v4code.service.abstr.AdminService;
+import com.j4v4code.service.concrete.AdminManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -58,4 +62,14 @@ public class AppConfig {
         transactionManager.setSessionFactory(getSessionFactory().getObject());
         return transactionManager;
     }
+
+    @Bean
+    public AdminRepository adminRepository() {
+        return new AdminRepositoryImpl();
+    }
+    @Bean
+    public AdminService adminService() {
+        return new AdminManager(adminRepository());
+    }
+
 }
